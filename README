@@ -1,0 +1,31 @@
+PhoneGap for Eclipse
+----------------------------------------
+
+What is it?
+
+This is a simple wizard that adds the PhoeGap directories and files to an EXISTNG Android project.
+
+----------------------------------------
+What is added?
+
+The folder "assets/www" is created and populated with the cordova2-2.0.js file and a sample index.html 
+file that invokes the PhoneGap notification API.
+
+The folder libs is added to with the cordova-2-2.0.jar file
+
+The folder res/xml is created and the config.xml populated.
+
+----------------------------------------
+How do I invoke it?
+
+File/New and select PhoneGap for Eclipse.  Then choose the project tht the changes are to be appliued to.
+
+How do I install it.
+DOwnload the jar file from the plugins folder and place in your Eclipse/plugins folder.
+
+Restart Eclipse and that's it.
+
+
+
+
+
