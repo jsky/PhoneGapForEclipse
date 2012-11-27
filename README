@@ -3,7 +3,7 @@ PhoneGap for Eclipse
 
 What is it?
 
-This is a simple wizard that adds the PhoneGap directories and files to an EXISTNG Android project.
+This is a simple wizard that adds the PhoneGap directories and files to an EXISTING Android project.
 
 ----------------------------------------
 What is added?
@@ -18,10 +18,12 @@ The folder res/xml is created and the config.xml populated.
 ----------------------------------------
 How do I invoke it?
 
-File/New and select PhoneGap for Eclipse.  Then choose the project tht the changes are to be appliued to.
+File/New and select PhoneGap for Eclipse.  Then choose the ANDROID project that the changes are to be applied to.
 
-How do I install it.
-DOwnload the jar file from the plugins folder and place in your Eclipse/plugins folder.
+----------------------------------------
+How do I install it?
+
+Download the jar file from the plugins folder and place in your Eclipse/plugins folder.
 
 Restart Eclipse and that's it.
 
