@@ -3,15 +3,15 @@ PhoneGap for Eclipse
 
 What is it?
 
-This is a simple wizard that adds the PhoeGap directories and files to an EXISTNG Android project.
+This is a simple wizard that adds the PhoneGap directories and files to an EXISTNG Android project.
 
 ----------------------------------------
 What is added?
 
-The folder "assets/www" is created and populated with the cordova2-2.0.js file and a sample index.html 
+The folder "assets/www" is created and populated with the cordova-2.2.0.js file and a sample index.html 
 file that invokes the PhoneGap notification API.
 
-The folder libs is added to with the cordova-2-2.0.jar file
+The folder libs is added to with the cordova-2.2.0.jar file
 
 The folder res/xml is created and the config.xml populated.
 
