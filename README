@@ -8,8 +8,7 @@ This is a simple wizard that adds the PhoneGap directories and files to an EXIST
 ----------------------------------------
 What is added?
 
-The folder "assets/www" is created and populated with the cordova-2.2.0.js file and a sample index.html 
-file that invokes the PhoneGap notification API.
+The folder "assets/www" is created and populated with the cordova-2.2.0.js file and a sample index.html file that invokes the PhoneGap notification API.
 
 The folder libs is added to with the cordova-2.2.0.jar file
 
