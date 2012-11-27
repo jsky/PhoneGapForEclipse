@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Notification Example</title>
+		
+		<script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>
+		
+		<script type="text/javascript">
+		
+		/**
+		 * alert dialog dismissed
+		 */
+		function alertDismissed() {
+		    console.log( "Alert is dismissed!" );
+		}
+		
+		/**
+		 * Show alert
+		 */
+		function showAlert() {
+		 
+		    navigator.notification.alert("Hello from PhoneGap!", // message
+		        alertDismissed, // callback
+		        'Message', // title
+		        'OK' // buttonName
+		    );
+		}
+		</script>
+   	</head>
+
+	<body>
+		<p>
+			Simple test of PhoneGap
+			<p />
+			<a href="#" onclick="showAlert(); return false;">Show Alert</a>
+		
+		</p>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+  
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="PhoneGap for Eclipse"
+            id="PhoneGapForEclipse">
+      </category>
+      <wizard
+            name="PhoneGap for Eclipse!"
+            icon="icons/sample.gif"
+            category="PhoneGapForEclipse"
+            class="phonegapforeclipse.wizards.PGEWizard"
+            id="phonegapforeclipse.wizards.PGEWizard">
+      </wizard>
+   </extension>
+
+</plugin>
